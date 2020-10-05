@@ -14,6 +14,10 @@ namespace Laboratorio03GitHub
 
             var name= Console.ReadLine();
             var date=DateTime.Now;
+             /*Funcionalidad que permite imprimir los  resultados por pantallaY*/
+            Console.WriteLine($"\nHellow,{name}, on {date:d} at {date:t}! ");
+            Console.Write("\nPress any key to exit...");
+            Console.ReadKey(true);
 
 
 
